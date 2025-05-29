@@ -27,7 +27,7 @@ int main() {
     scanf(" %[^\n]", cidade);
 
     printf("Qual o número de habitantes da cidade?\n");
-    scanf("%d", &populacao);
+    scanf("%d", &populacao);// numero de habitantes
 
     printf("Qual é a área em km² (digito somente o numeral)?\n");
     scanf("%f", &area);
