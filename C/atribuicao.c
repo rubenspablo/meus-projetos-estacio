@@ -11,11 +11,21 @@ int main() {
   */
  int numero1, numero2, resultado;
 
- resuldado = 10
+ resultado = 10;
  printf("Resultado é: %d\n", resultado);
 
-  return 0;
+ resultado += 5; // resultado = resultado + 5
+ printf("Resultado é: %d\n", resultado);
 
-    
+ resultado -= 8; // resultado = resultado - 8
+ printf("Resultado é: %d\n", resultado);
+
+ resultado *= 2; // resultado = resultado * 2
+ printf("Resultado é: %d\n", resultado);
+
+ resultado /= 2; // resultado = resultado / 2
+ printf("Resultado é: %d\n", resultado);
+
+  return 0;   
     
 }
