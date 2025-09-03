@@ -29,8 +29,8 @@ int main(){
     printf("Então vamos lá digite o codigo, os números seram de 01 à 04\n");
     scanf("%s", codigo1);
 
-    printf("Sua carta tem o codigo = %c%s\n", estado1, codigo1);
-    
+    printf("Sua carta tem o codigo = %c%s\n", letra1, codigo1);
+
     printf("Agora vamos preencher os dados da sua carta\n");
     printf("Qual o nome da sua cidade?\n");
     scanf(" %[^\n]", cidade1);
@@ -83,7 +83,8 @@ int main(){
     printf("Agora vamos ver suas cartas\n\n");
 
     printf("Carta 01");
-    printf("Estado: %c%s\n", estado1, codigo1);
+    printf("Estado: %s\n", estado1);
+    printf("Código: %c%s\n", letra1, codigo1);
     printf("Cidade: %s\n", cidade1);
     printf("População: %d\n", populacao1);
     printf("Área: %.2f\n", area1);
@@ -91,7 +92,8 @@ int main(){
     printf("Pontos turísticos: %d\n\n", pontos1);
 
     printf("Carta 02");
-    printf("Estado: %c%s\n", estado2, codigo2);
+    printf("Estado: %s\n", estado2);
+    printf("Código: %c%s\n", letra2, codigo2);
     printf("Cidade: %s\n", cidade2);
     printf("População: %d\n", populacao2);
     printf("Área: %.2f\n", area2);
