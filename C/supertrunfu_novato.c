@@ -11,13 +11,15 @@ int main(){
 
     // Carta 01
     printf("Olá jogador, seja bem vindo ao Super Trunfo! Um Mundo de disputas e guerras.\n");
-    printf("e agora contruiremos suas cartas, você vai ter direito a duas cartas.\n");
-    printf("Então seja inteligente nas suas escolhas e boa sorte. \n");
+    printf("Onde cada jogador enfrenta desafios jamais vistos, e batalhas épicas são vistas a todo o momento.\n");
+    printf("Para esse desafio teremos que montar suas cartas desafiadoras.\n");
+    printf("Você terá direito a duas cartas inicialmente.\n");
+    printf("Então seja inteligente nas suas escolhas e boa sorte.\n\n");
 
     printf("Vamos começar com a primeira carta.\n");
-    printf(" Escolha seu estado indicando uma letra para ele entre A - H");
+    printf("Escolha seu estado indicando uma letra para ele entre A - H\n");
     scanf(" %c", &estado1);
-    printf("A Letra escolhida por você foi %c\n", estado1);
+    printf("A Letra escolhida por você foi %c \n", estado1);
     printf("Agora vamos digitar um codigo para juntar com a letra que você ja escolheu\n");
     printf("Então vamos lá digite o codigo, os números seram de 01 à 04\n");
     scanf("%s", codigo1);
@@ -41,7 +43,7 @@ int main(){
     // Carta 02
     printf("Vamos começar com a segunda carta.\n");
     printf("Lembre-se seja inteligente nas escolhas\n");
-    printf(" Escolha seu estado indicando uma letra para ele entre A - H");
+    printf(" Escolha seu estado indicando uma letra para ele entre A - H\n");
     scanf(" %c", &estado2);
     printf("A Letra escolhida por você foi %c\n", estado2);
     printf("Agora vamos digitar um codigo para juntar com a letra que você ja escolheu\n");
