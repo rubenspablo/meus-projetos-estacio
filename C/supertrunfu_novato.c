@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    // jogo do Super Trunfo
+    // jogo do Super Trunfo Novato
     // as variaveis foram declaradas juntas das duas cartas
     char estado1[40], estado2[40];
     char codigo1[10], codigo2[10];
@@ -58,10 +58,12 @@ int main(){
     //pontos turísticos da cidade
     printf("Quantos pontos turísticos tem sua cidade?\n");
     scanf("%d", &pontos1);
+    printf("\n===Parabens você acaba de concluir sua primeira carta!===\n\n");
+
 
     // Carta 02
     printf("Vamos começar com a segunda carta.\n");
-    printf("Lembre-se seja inteligente nas escolhas\n");
+    printf("Lembre-se seja inteligente nas escolhas\n\n");
 
     // escolha do estado 2
     printf("Escolha seu estado.\n");
@@ -100,8 +102,9 @@ int main(){
     //pontos turísticos da cidade 2
     printf("Quantos pontos turísticos tem sua cidade?\n");
     scanf("%d", &pontos2);
+    printf("\n===Parabens você acaba de concluir sua segunda carta!===\n\n");
 
-    printf("Agora vamos ver suas cartas\n\n");
+    printf("Agora vamos ver o resultado de suas cartas\n\n");
 
     // resultado final
 
