@@ -11,6 +11,6 @@ int main(){
     char sobrenome[20];
 
     printf("Digite seu nome:");
-    scanf("%s",nome);
+    scanf("%[^\n]",nome);
     printf("Seu nome é %s\n", nome);
 }
