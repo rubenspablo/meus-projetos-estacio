@@ -65,7 +65,7 @@ int main(){
     printf("Quantos pontos turísticos tem sua cidade?\n");
     scanf("%d", &pontos2);
 
-    printf("Agora vamos ver suas cartas\n");
+    printf("Agora vamos ver suas cartas\n\n");
 
     printf("Carta 01");
     printf("Estado: %c%s\n", estado1, codigo1);
@@ -73,7 +73,7 @@ int main(){
     printf("População: %d\n", populacao1);
     printf("Área: %.2f\n", area1);
     printf("PIB: %.2f\n", pib1);
-    printf("Pontos turísticos: %d\n", pontos1);
+    printf("Pontos turísticos: %d\n\n", pontos1);
 
     printf("Carta 02");
     printf("Estado: %c%s\n", estado2, codigo2);
@@ -81,7 +81,9 @@ int main(){
     printf("População: %d\n", populacao2);
     printf("Área: %.2f\n", area2);
     printf("PIB: %.2f\n", pib2);
-    printf("Pontos turísticos: %d\n", pontos2);
+    printf("Pontos turísticos: %d\n\n", pontos2);
+
+    printf("Agora você conhece suas cartas e está preparado para o novo mundo\n");
 
     return 0;
 }
