@@ -7,7 +7,7 @@
         printf("Digite sua renda: \n");
         scanf("%f", &renda);
 
-        if (idade <= 18 || renda <= 1000.00) {
+        if (idade <= 18 || idade >= 60) {
               if (renda <= 1000.00) {
                 printf("Você está apto ao benefício.\n");
             } else {
