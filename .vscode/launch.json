@@ -5,6 +5,7 @@
     "version": "0.2.0",
     "configurations": [
         
+        
         {
             "name": "(gdb) Anexação de Pipe",
             "type": "cppdbg",
