@@ -38,5 +38,6 @@
             printf("\n\tNotas invalidas\n\n");
             break;
         }
+        return 0;
 
     }
